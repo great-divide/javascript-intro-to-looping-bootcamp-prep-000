@@ -24,7 +24,7 @@ function whileLoop(number) {
 
 function doWhileLoop(array) {
   do {
-  var new = array.pop;
+  array.pop;
  } while (array.length > 0 && maybeTrue());
-  return new
+  return array
 }
